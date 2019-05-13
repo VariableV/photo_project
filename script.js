@@ -70,8 +70,8 @@ var data = {"pilatus_bottom":[
 
 function handle(name){
 	var html = `
-<img src = "`+name+`.JPG" width = "55%" height="82.5%" style="margin-left: -20px; margin-top: -20px;"/>
-<ul style="width: 55%; height: 82.5%; margin-top: -20px; margin-right: -20px; overflow: auto">
+<img src = "`+name+`.JPG" width = "55%" height="325px" style="margin-left: -20px; margin-top: -20px;"/>
+<ul style="width: 55%; height: 325px; margin-top: -20px; margin-right: -20px; overflow: auto">
 	`
 	for(var i = 0; i < data[name].length; i++){
 		html += "<li>"+data[name][i]+"</li>";
